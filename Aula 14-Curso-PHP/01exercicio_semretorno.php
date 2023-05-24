@@ -7,7 +7,14 @@
 </head>
 <body>
 <div>
-  
+  <?php
+    function soma($a, $b){
+      $res = $a + $b;
+      echo "<p>O resultado da soma de $a + $b é igual a: $res</p>";
+    }
+
+    soma(85,95);
+  ?>
 </div>
 </body>
 </html>
