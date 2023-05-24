@@ -7,7 +7,13 @@
 </head>
 <body>
 <div>
-  
+  <?php
+    $c = 0;
+    while ($c <= 50){
+      echo "$c<br>";
+      $c++;
+    }
+  ?>
 </div>
 </body>
 </html>

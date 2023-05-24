@@ -7,7 +7,13 @@
 </head>
 <body>
 <div>
-    
+    <?php
+        $c = 50;
+        while ($c > -1){
+        echo "$c<br>";
+        $c--;
+        }
+    ?>
 </div>
 </body>
 </html>
